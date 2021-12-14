@@ -9,7 +9,10 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("How old are you?");
         int age = scanner.nextInt();
-        System.out.println("Hello, "+ name + ". You are "+age+" years old." );
+        scanner.nextLine();
+        System.out.println("What do you like?");
+        String like = scanner.nextLine();
+        System.out.println("Hello, "+ name + ".\nYou are "+age+" years old.\nYou like "+like);
         scanner.close();
     }
 }
