@@ -24,6 +24,12 @@ public class Pizza {
         this.bread=bread;
     }
     Pizza(){
-        
+
+    }
+
+    public String toString(){
+        String str = "";
+        str = "Pizza with "+bread+" "+sauce+" "+cheese+" "+topping;
+        return str;
     }
 }

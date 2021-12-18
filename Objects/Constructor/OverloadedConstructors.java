@@ -8,6 +8,7 @@ public class OverloadedConstructors {
         Pizza pizza4 = new Pizza("italian");
         Pizza pizza5 = new Pizza();
 
-        System.out.println(pizza.topping);
+        System.out.println(pizza);
+        System.out.println(pizza.toString());
     }
 }
